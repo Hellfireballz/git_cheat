@@ -13,7 +13,8 @@
             font-size: 3em;
           }
 
-          table {
+          /* This table element is giving the odd rows their color */
+          table { 
             width: 100%;
             border-collapse: collapse;
             margin: 25px 0;
