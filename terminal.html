@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unicorn Terminal Commands</title>
+    <style>
+      body {
+        font-family: "Comic Sans MS", "Segoe UI", sans-serif;
+        background: linear-gradient(135deg, #b2fefa 0%, #f9d29d 100%);
+        color: #2d3561;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        color: #7b5ea7;
+        font-size: 3.5em;
+        text-shadow: 2px 2px 8px #d1e8ff;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 1.2em;
+      }
+
+      .unicorn-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px;
+      }
+
+      .unicorn-container img {
+        width: 300px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(173, 216, 230, 0.8);
+      }
+
+      .commands {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #eef3fb;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(173, 216, 230, 0.5);
+        text-align: left;
+      }
+
+      .commands h2 {
+        color: #586ba4;
+        font-size: 2em;
+        margin-bottom: 15px;
+        text-shadow: 1px 1px 3px #c5e0ff;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+
+      th,
+      td {
+        padding: 12px 20px;
+        border: 1px solid #c9e9f7;
+      }
+
+      th {
+        background-color: #c4e0f9;
+        color: #586ba4;
+        font-size: 1.2em;
+      }
+
+      td {
+        background-color: #eef3fb;
+        color: #2d3561;
+        font-size: 1.1em;
+      }
+
+      tr:nth-child(even) td {
+        background-color: #d7e7f9;
+      }
+
+      tr:hover td {
+        background-color: #b3cde0;
+      }
+
+      code {
+        background-color: #cfe0fc;
+        padding: 3px 8px;
+        border-radius: 5px;
+        color: #2d3561;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="unicorn-container">
+      <img src="images/angry.webp" alt="Angry Unicorn" />
+      <h1>Angry Unicorn's Terminal Commands</h1>
+      <p>
+        Even unicorns get frustrated, but you won't after mastering these
+        commands!
+      </p>
+
+      <div class="commands">
+        <h2>Essential Commands</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Command</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>ls</code></td>
+              <td>List files and directories.</td>
+            </tr>
+            <tr>
+              <td><code>cd [directory]</code></td>
+              <td>Change the current directory to the specified one.</td>
+            </tr>
+            <tr>
+              <td><code>pwd</code></td>
+              <td>Show the current working directory.</td>
+            </tr>
+            <tr>
+              <td><code>touch [filename]</code></td>
+              <td>Create a new empty file.</td>
+            </tr>
+            <tr>
+              <td><code>mkdir [directory]</code></td>
+              <td>Create a new directory.</td>
+            </tr>
+            <tr>
+              <td><code>rm [file]</code></td>
+              <td>Delete the specified file.</td>
+            </tr>
+            <tr>
+              <td><code>rm -r [directory]</code></td>
+              <td>Recursively delete a directory and its contents.</td>
+            </tr>
+            <tr>
+              <td><code>cp [source] [destination]</code></td>
+              <td>Copy a file or directory.</td>
+            </tr>
+            <tr>
+              <td><code>mv [source] [destination]</code></td>
+              <td>Move or rename a file or directory.</td>
+            </tr>
+            <tr>
+              <td><code>cat [file]</code></td>
+              <td>Display the contents of a file.</td>
+            </tr>
+            <tr>
+              <td><code>grep "[pattern]" [file]</code></td>
+              <td>Search for a pattern within a file.</td>
+            </tr>
+            <tr>
+              <td><code>sudo [command]</code></td>
+              <td>Execute a command with superuser privileges.</td>
+            </tr>
+            <tr>
+              <td><code>man [command]</code></td>
+              <td>Display the manual page for a command.</td>
+            </tr>
+            <tr>
+              <td><code>exit</code></td>
+              <td>Close the terminal or end a session.</td>
+            </tr>
+            <tr>
+              <td><code>clear</code></td>
+              <td>Clear the terminal screen.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
