@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Cheat Sheet</title>
+    <style>
+      body {
+        font-family: "Comic Sans MS", sans-serif;
+        background: linear-gradient(135deg, #c3eaff 0%, #f9d1ff 100%);
+        color: #333;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        color: #8b5cf6;
+        font-size: 3.5em;
+        text-shadow: 2px 2px 8px #e5e5ff;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 1.2em;
+        color: #444;
+      }
+
+      .fox-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px;
+      }
+
+      .fox-container img {
+        width: 300px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(173, 216, 230, 0.8);
+      }
+
+      .commands {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f5f9ff;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(100, 100, 255, 0.4);
+        text-align: left;
+      }
+
+      .commands h2 {
+        color: #8b5cf6;
+        font-size: 2em;
+        margin-bottom: 15px;
+        text-shadow: 1px 1px 3px #e0d7ff;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+
+      th,
+      td {
+        padding: 12px 20px;
+        border: 1px solid #d4e5ff;
+      }
+
+      th {
+        background-color: #e6ecff;
+        color: #5a60ff;
+        font-size: 1.2em;
+      }
+
+      td {
+        background-color: #f5f9ff;
+        color: #333;
+        font-size: 1.1em;
+      }
+
+      tr:nth-child(even) td {
+        background-color: #eef5ff;
+      }
+
+      tr:hover td {
+        background-color: #ddeaff;
+      }
+
+      code {
+        background-color: #e0eaff;
+        padding: 3px 8px;
+        border-radius: 5px;
+        color: #5a60ff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fox-container">
+      <img src="images/playful.webp" alt="Playful Fox" />
+      <h1>CSS Cheat Sheet</h1>
+      <p>
+        This playful fox is here to help you master CSS! Dive into the commands
+        below:
+      </p>
+
+      <div class="commands">
+        <h2>CSS Properties and Values</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Property</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>color</code></td>
+              <td>Sets the text color of an element.</td>
+            </tr>
+            <tr>
+              <td><code>background-color</code></td>
+              <td>Sets the background color of an element.</td>
+            </tr>
+            <tr>
+              <td><code>font-size</code></td>
+              <td>Sets the size of the font.</td>
+            </tr>
+            <tr>
+              <td><code>font-family</code></td>
+              <td>Specifies the font for text.</td>
+            </tr>
+            <tr>
+              <td><code>margin</code></td>
+              <td>Sets the space around an element.</td>
+            </tr>
+            <tr>
+              <td><code>padding</code></td>
+              <td>
+                Sets the space inside an element, between the content and the
+                border.
+              </td>
+            </tr>
+            <tr>
+              <td><code>border</code></td>
+              <td>
+                Specifies the style, width, and color of an element's border.
+              </td>
+            </tr>
+            <tr>
+              <td><code>width</code></td>
+              <td>Sets the width of an element.</td>
+            </tr>
+            <tr>
+              <td><code>height</code></td>
+              <td>Sets the height of an element.</td>
+            </tr>
+            <tr>
+              <td><code>display</code></td>
+              <td>
+                Specifies the display behavior of an element (e.g., block,
+                inline).
+              </td>
+            </tr>
+            <tr>
+              <td><code>flex</code></td>
+              <td>
+                Specifies how a flex item will grow or shrink in relation to
+                other items.
+              </td>
+            </tr>
+            <tr>
+              <td><code>justify-content</code></td>
+              <td>Aligns flex items along the main axis of a container.</td>
+            </tr>
+            <tr>
+              <td><code>align-items</code></td>
+              <td>Aligns flex items along the cross axis of a container.</td>
+            </tr>
+            <tr>
+              <td><code>position</code></td>
+              <td>
+                Specifies the type of positioning method used for an element
+                (e.g., static, relative, absolute).
+              </td>
+            </tr>
+            <tr>
+              <td><code>top, right, bottom, left</code></td>
+              <td>
+                Specifies the position of an element relative to its positioned
+                ancestor.
+              </td>
+            </tr>
+            <tr>
+              <td><code>z-index</code></td>
+              <td>
+                Sets the stack order of an element (higher values are on top).
+              </td>
+            </tr>
+            <tr>
+              <td><code>opacity</code></td>
+              <td>Sets the transparency level of an element.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
