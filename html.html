@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Cheat Sheet</title>
+    <style>
+      body {
+        font-family: "Comic Sans MS", sans-serif;
+        background: linear-gradient(135deg, #b0ffe1 0%, #ffccff 100%);
+        color: #333;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        color: #9b59b6;
+        font-size: 3.5em;
+        text-shadow: 2px 2px 8px #ffccee;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 1.2em;
+        color: #444;
+      }
+
+      .rabbit-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px;
+      }
+
+      .rabbit-container img {
+        width: 300px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(255, 182, 193, 0.8);
+      }
+
+      .commands {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f4f9ff;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(100, 100, 255, 0.4);
+        text-align: left;
+      }
+
+      .commands h2 {
+        color: #6d45ab;
+        font-size: 2em;
+        margin-bottom: 15px;
+        text-shadow: 1px 1px 3px #eedbff;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+
+      th,
+      td {
+        padding: 12px 20px;
+        border: 1px solid #dab5ff;
+      }
+
+      th {
+        background-color: #e6ccff;
+        color: #6d45ab;
+        font-size: 1.2em;
+      }
+
+      td {
+        background-color: #f4f9ff;
+        color: #333;
+        font-size: 1.1em;
+      }
+
+      tr:nth-child(even) td {
+        background-color: #f0e6ff;
+      }
+
+      tr:hover td {
+        background-color: #dfccff;
+      }
+
+      code {
+        background-color: #dfc8ff;
+        padding: 3px 8px;
+        border-radius: 5px;
+        color: #6d45ab;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="rabbit-container">
+      <img src="images/mischevious.webp" alt="Mischievous Rabbit" />
+      <h1>HTML Cheat Sheet</h1>
+      <p>
+        This playful rabbit knows how to make HTML fun! Learn the essentials
+        below:
+      </p>
+
+      <div class="commands">
+        <h2>HTML Commands</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Tag</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>&lt;html&gt;</code></td>
+              <td>Defines the root of an HTML document.</td>
+            </tr>
+            <tr>
+              <td><code>&lt;head&gt;</code></td>
+              <td>
+                Contains metadata/information for the document (like title,
+                link, meta).
+              </td>
+            </tr>
+            <tr>
+              <td><code>&lt;title&gt;</code></td>
+              <td>Sets the title of the webpage, shown in the browser tab.</td>
+            </tr>
+            <tr>
+              <td><code>&lt;meta&gt;</code></td>
+              <td>
+                Defines metadata like character set, description, or author of
+                the document.
+              </td>
+            </tr>
+            <tr>
+              <td><code>&lt;body&gt;</code></td>
+              <td>
+                Contains the content of the HTML document (like text, images,
+                and links).
+              </td>
+            </tr>
+            <tr>
+              <td><code>&lt;h1&gt; - &lt;h6&gt;</code></td>
+              <td>
+                Defines HTML headings. <code>&lt;h1&gt;</code> is the largest,
+                and <code>&lt;h6&gt;</code> is the smallest.
+              </td>
+            </tr>
+            <tr>
+              <td><code>&lt;p&gt;</code></td>
+              <td>Defines a paragraph of text.</td>
+            </tr>
+            <tr>
+              <td><code>&lt;a href="URL"&gt;</code></td>
+              <td>Creates a hyperlink to a URL or page.</td>
+            </tr>
+            <tr>
+              <td><code>&lt;img src="URL" alt="description"&gt;</code></td>
+              <td>Embeds an image in the webpage.</td>
+            </tr>
+            <tr>
+              <td><code>&lt;div&gt;</code></td>
+              <td>Defines a section or block in an HTML document.</td>
+            </tr>
+            <tr>
+              <td><code>&lt;span&gt;</code></td>
+              <td>Defines a small section or inline block of text.</td>
+            </tr>
+            <tr>
+              <td><code>&lt;br&gt;</code></td>
+              <td>Inserts a line break in the text.</td>
+            </tr>
+            <tr>
+              <td><code>&lt;ul&gt;</code></td>
+              <td>
+                Creates an unordered (bulleted) list. Items are defined with
+                <code>&lt;li&gt;</code>.
+              </td>
+            </tr>
+            <tr>
+              <td><code>&lt;ol&gt;</code></td>
+              <td>
+                Creates an ordered (numbered) list. Items are defined with
+                <code>&lt;li&gt;</code>.
+              </td>
+            </tr>
+            <tr>
+              <td><code>&lt;form&gt;</code></td>
+              <td>
+                Defines an HTML form for user input, often paired with
+                <code>&lt;input&gt;</code> fields.
+              </td>
+            </tr>
+            <tr>
+              <td><code>&lt;input type="text"&gt;</code></td>
+              <td>Defines an input field for user text input.</td>
+            </tr>
+            <tr>
+              <td><code>&lt;button&gt;</code></td>
+              <td>Defines a clickable button.</td>
+            </tr>
+            <tr>
+              <td><code>&lt;table&gt;</code></td>
+              <td>
+                Defines a table. Table rows are defined with
+                <code>&lt;tr&gt;</code>, headers with <code>&lt;th&gt;</code>,
+                and data cells with <code>&lt;td&gt;</code>.
+              </td>
+            </tr>
+            <tr>
+              <td><code>&lt;footer&gt;</code></td>
+              <td>Defines the footer section of a page.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
